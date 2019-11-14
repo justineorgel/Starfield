@@ -5,7 +5,7 @@ int endY=150;
 Particle [] stars;
 void setup()
 {
-	size(500,500);
+	size(500,501);
 	background(255,255,255);
 	stars =new Particle[100];
 	for(int i=0;i<stars.length;i++){
